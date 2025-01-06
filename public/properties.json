@@ -1,0 +1,130 @@
+{
+  "properties": [
+    {
+      "id": "prop1",
+      "type": "House",
+      "bedrooms": 3,
+      "price": 750000,
+      "tenure": "Freehold",
+      "description": "Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland. The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory. The property also benefits from having a utility room and cloakroom. To the first floor there are three bedrooms and a family bathroom with separate WC. Additional features include double glazing, gas central heating and a well presented interior...",
+      "location": "Petts Wood Road, Petts Wood, Orpington BR5",
+      "floorplan":["/assets/1_fp.webp"],
+      "map":"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d159304.89119549058!2d0.0541117!3d51.400502!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8ab82cc8f3cb1%3A0xc746da03b0c6c716!2sPetts%20Wood%20Rd%2C%20Petts%20Wood%2C%20Orpington%2C%20UK!5e0!3m2!1sen!2slk!4v1736134482256!5m2!1sen!2slk",
+      "picture":["/assets/1_1.webp","/assets/1_2.webp","/assets/1_3.webp","/assets/1_4.webp","/assets/1_5.webp","/assets/1_6.webp","/assets/1_7.webp"],
+      "url": "properties/prop1.html",
+      "added": {
+        "month": "October",
+        "day": 12,
+        "year": 2022
+      }
+    },
+    {
+      "id": "prop2",
+      "type": "Flat",
+      "bedrooms": 2,
+      "price": 399995,
+      "tenure": "Freehold",
+      "description": "Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms.<br>This apartment being only five years old, is still under a 10 year building guarantee...",
+      "location": "Crofton Road Orpington BR6",
+      "picture":["/assets/2_1.webp","/assets/2_2.webp","/assets/2_3.webp","/assets/2_4.webp","/assets/2_5.webp","/assets/2_6.webp"],
+      "floorplan":["/assets/2_fp.webp"],
+      "map":"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d19923.57102191797!2d0.0613236!3d51.3764736!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8ab6ac2bdc8d1%3A0xb0dde3c09939f924!2sCrofton%20Rd%2C%20Orpington%2C%20UK!5e0!3m2!1sen!2slk!4v1736134930282!5m2!1sen!2slk",
+      "url": "properties/prop2.html",
+      "added": {
+        "month": "September",
+        "day": 14,
+        "year": 2022
+      }
+    },
+    {
+      "id": "prop3",
+      "type": "House",
+      "bedrooms": 4,
+      "price": 899000,
+      "tenure": "Freehold",
+      "description": "Spacious four-bedroom detached house with a large garden and modern amenities. Features include a newly renovated kitchen, open-plan living area, and a home office. Located in a quiet neighborhood with excellent schools nearby.",
+      "location": "Chislehurst Road, Chislehurst BR7",
+      "picture":["/assets/3_1.webp","/assets/3_2.webp","/assets/3_3.webp","/assets/3_4.webp","/assets/3_5.webp","/assets/3_6.webp"],
+      "floorplan":["/assets/3_fp.webp"],
+      "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2488.762149229138!2d0.0458542!3d51.407424899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8aa4b32e28611%3A0xc55095467ee80433!2sChislehurst%20Rd%2C%20United%20Kingdom!5e0!3m2!1sen!2slk!4v1736135368975!5m2!1sen!2slk",
+      "url": "properties/prop3.html",
+      "added": {
+        "month": "November",
+        "day": 5,
+        "year": 2023
+      }
+    },
+    {
+      "id": "prop4",
+      "type": "Flat",
+      "bedrooms": 1,
+      "price": 275000,
+      "tenure": "Leasehold",
+      "description": "Modern one-bedroom apartment in a newly built complex. Features include a balcony with city views, open-plan kitchen and living area, and access to communal gardens. Perfect for first-time buyers or investors.",
+      "location": "High Street, Bromley BR1",
+      "picture": ["/assets/4_1.webp","/assets/4_2.webp","/assets/4_3.webp","/assets/4_4.webp","/assets/4_5.webp","/assets/4_6.webp"],
+      "floorplan":["/assets/4_fp.webp"],
+      "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.196169525756!2d-0.0154081!3d51.5279617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761d444c42bcf5%3A0x85bffc5b6e2d05dd!2sBromley%20High%20St.%2C%20London%2C%20UK!5e0!3m2!1sen!2slk!4v1736135490607!5m2!1sen!2slk",
+      "url": "properties/prop4.html",
+      "added": {
+        "month": "December",
+        "day": 1,
+        "year": 2024
+      }
+    },
+    {
+      "id": "prop5",
+      "type": "House",
+      "bedrooms": 5,
+      "price": 1250000,
+      "tenure": "Freehold",
+      "description": "Luxurious five-bedroom detached house with a large garden and swimming pool. Features include a modern kitchen with high-end appliances, a home cinema room, and a double garage. Located in a prestigious area with excellent transport links.",
+      "location": "Farnborough Park, Orpington BR6",
+      "picture":["/assets/5_1.webp","/assets/5_2.webp","/assets/5_3.webp","/assets/5_4.webp","/assets/5_5.webp","/assets/5_6.webp"],
+      "floorplan":["/assets/5_fp.webp"],
+      "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2491.3986363197773!2d0.06942160000000001!3d51.358967899999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8aba0c1fabfc5%3A0xe534c4aa2b0582f8!2sFarnborough%20Park!5e0!3m2!1sen!2slk!4v1736135596210!5m2!1sen!2slk",
+      "url": "properties/prop5.html",
+      "added": {
+        "month": "January",
+        "day": 15,
+        "year": 2023
+      }
+    },
+    {
+      "id": "prop6",
+      "type": "Flat",
+      "bedrooms": 3,
+      "price": 550000,
+      "tenure": "Leasehold",
+      "description": "Spacious three-bedroom penthouse apartment with stunning views. Features include a large terrace, open-plan living area, and two bathrooms. Located in the heart of the town center with easy access to shops and restaurants.",
+      "location": "The Glades, Bromley BR1",
+      "picture": ["/assets/6_1.webp","/assets/6_2.webp","/assets/6_3.webp","/assets/6_4.webp","/assets/6_5.webp","/assets/6_6.webp"],
+      "floorplan":["/assets/6_fp.webp"],
+      "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2488.9632470114225!2d0.016433000000000003!3d51.40373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8aa6ea4146f91%3A0x8de63c840de5f87!2sThe%20Glades%2C%20Bromley!5e0!3m2!1sen!2slk!4v1736135698741!5m2!1sen!2slk",
+      "url": "properties/prop6.html",
+      "added": {
+        "month": "February",
+        "day": 20,
+        "year": 2024
+      }
+    },
+    {
+      "id": "prop7",
+      "type": "House",
+      "bedrooms": 2,
+      "price": 450000,
+      "tenure": "Freehold",
+      "description": "Charming two-bedroom cottage with period features and a beautiful garden. Recently renovated with a modern kitchen and bathroom while retaining its original character. Perfect for those seeking a quiet, rural lifestyle.",
+      "location": "Downe Village, Orpington BR6",
+      "picture":["/assets/7_1.webp","/assets/7_2.webp","/assets/7_3.webp","/assets/7_4.webp","/assets/7_5.webp","/assets/7_6.webp"],
+      "floorplan":["/assets/7_fp.webp"],
+      "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19943.750244922856!2d0.05395165!3d51.33009405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47df54cb87081cd9%3A0xc2f7d48f9b59089!2sDowne%2C%20UK!5e0!3m2!1sen!2slk!4v1736135777667!5m2!1sen!2slk",
+      "url": "properties/prop7.html",
+      "added": {
+        "month": "March",
+        "day": 10,
+        "year": 2023
+      }
+    }
+  ]
+}
