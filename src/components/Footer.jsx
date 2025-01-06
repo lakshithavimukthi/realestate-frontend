@@ -10,7 +10,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">About Us</h3>
             <p className="text-sm">
-            We are a top real estate company dedicated to finding you the ideal house or rental property.
+              We are a top real estate company dedicated to finding you the ideal house or rental property.
             </p>
           </div>
           <div>
@@ -19,7 +19,6 @@ export default function Footer() {
               <li><Link to="/" className="text-sm hover:underline">Home</Link></li>
               <li><Link to="/properties" className="text-sm hover:underline">Properties</Link></li>
               <li><Link to="/about" className="text-sm hover:underline">About Us</Link></li>
-              <li><Link to="/contact" className="text-sm hover:underline">Contact</Link></li>
             </ul>
           </div>
           <div>

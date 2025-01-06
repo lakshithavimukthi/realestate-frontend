@@ -12,9 +12,8 @@ export function NavBar() {
           </Link>
           <div className="flex space-x-4">
             <Link to="/" className="hover:text-secondary-foreground">Home</Link>
-            <Link to="/" className="hover:text-secondary-foreground">Properties</Link>
+            <Link to="/#properties" className="hover:text-secondary-foreground">Properties</Link>
             <Link to="/about" className="hover:text-secondary-foreground">About</Link>
-            <Link to="/contact" className="hover:text-secondary-foreground">Contact</Link>
           </div>
         </div>
       </div>

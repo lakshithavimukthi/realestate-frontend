@@ -10,6 +10,15 @@ export default function PropertyPage() {
   const { id } = useParams()
   const [property, setProperty] = useState(null)
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
+  const [favorites, setFavorites] = useState([])
+
+  const addToFavorites = (property) => {
+    if (!favorites.some(fav => fav.id === property.id)) {
+      const newFavorites = [...favorites, property]
+      setFavorites(newFavorites)
+      localStorage.setItem('favorites', JSON.stringify(newFavorites))
+    }
+  }
 
   useEffect(() => {
     const fetchProperty = async () => {
@@ -31,7 +40,28 @@ export default function PropertyPage() {
     }
 
     fetchProperty()
-  }, [id])
+  }, [id]);
+
+  useEffect(() => {
+    // Load properties from JSON file
+    const loadProperties = async () => {
+      const res = await fetch('/properties.json')
+      const data = await res.json()
+      setProperties(data.properties)
+      setSearchResults(data.properties) // Show all properties initially
+    }
+
+    // Load favorites from local storage
+    const loadFavorites = () => {
+      const storedFavorites = localStorage.getItem('favorites')
+      if (storedFavorites) {
+        setFavorites(JSON.parse(storedFavorites))
+      }
+    }
+
+    loadProperties()
+    loadFavorites()
+  }, [])
 
   if (!property) {
     return <div>Loading...</div>
@@ -49,9 +79,9 @@ export default function PropertyPage() {
             alt={`Property image ${currentImageIndex + 1}`}
             width={600}
             height={400}
-            className="w-full h-auto"
+            className="w-full rounded-md h-auto"
           />
-          <div className="flex mt-2">
+          <div className="flex mt-2 flex-wrap gap-4">
             {images.map((image, index) => (
               <img
                 key={index}
@@ -59,7 +89,7 @@ export default function PropertyPage() {
                 alt={`Thumbnail ${index + 1}`}
                 width={100}
                 height={75}
-                className="w-24 h-16 object-cover cursor-pointer mr-2"
+                className="w-24 rounded h-16 object-cover cursor-pointer mr-2"
                 onClick={() => setCurrentImageIndex(index)}
               />
             ))}
@@ -70,7 +100,7 @@ export default function PropertyPage() {
           <p className="mb-2">{property.description}</p>
           <p className="mb-2">Location: {property.location}</p>
           <p className="mb-2">Date Added: {`${property.added.day}/${property.added.month}/${property.added.year}`}</p>
-          <Button>Add to Favorites</Button>
+          <Button onClick={() => addToFavorites(property)}>Add to Favorites</Button>
         </div>
       </div>
       <Tabs defaultValue="description">
@@ -89,7 +119,7 @@ export default function PropertyPage() {
         </TabsContent>
         <TabsContent value="map">
           <div>
-            <iframe src={property.map} width="800" height="600" style={{border:0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src={property.map} width="800" className='w-full' height="600" style={{ border: 0 }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </TabsContent>
       </Tabs>

@@ -100,7 +100,7 @@ export default function HomePage() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <div className="md:col-span-2">
             <SearchForm onSearch={handleSearch} />
-            <div className='mt-8'>
+            <div id="properties" className='mt-8'>
               <PropertyList properties={searchResults} onAddToFavorites={addToFavorites} />
             </div>
           </div>
