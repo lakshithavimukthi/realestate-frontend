@@ -35,7 +35,7 @@ export default function HomePage() {
       setSearchResults(properties) // Show all properties if no criteria are provided
       return
     }
-
+//filtering items based on the search criteria
     const results = properties.filter(property => {
       return (
         (!criteria.type || property.type.toLowerCase() === criteria.type.toLowerCase()) &&
@@ -50,6 +50,7 @@ export default function HomePage() {
     setSearchResults(results)
   }
 
+  // function to call when a favourite properties added
   const addToFavorites = (property) => {
     if (!favorites.some(fav => fav.id === property.id)) {
       const newFavorites = [...favorites, property]
@@ -96,7 +97,7 @@ export default function HomePage() {
   return (
     <DragDropContext onDragEnd={onDragEnd}>
       <div className="container mx-auto p-4">
-        <h1 className="text-3xl font-bold mb-4">Estate Agent Web App</h1>
+        <h1 className="text-3xl font-bold mb-4">Dreamscape Web App</h1>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <div className="md:col-span-2">
             <SearchForm onSearch={handleSearch} />

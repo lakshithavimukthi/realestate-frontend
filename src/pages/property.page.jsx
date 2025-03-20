@@ -19,7 +19,7 @@ export default function PropertyPage() {
       localStorage.setItem('favorites', JSON.stringify(newFavorites))
     }
   }
-
+//fetch the relevent property to show on the page
   useEffect(() => {
     const fetchProperty = async () => {
       try {
@@ -42,6 +42,7 @@ export default function PropertyPage() {
     fetchProperty()
   }, [id]);
 
+  // load the favourites in the local storage to state
   useEffect(() => {
     // Load properties from JSON file
     const loadProperties = async () => {
